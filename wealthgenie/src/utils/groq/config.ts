@@ -14,7 +14,7 @@
  * export const groqApiKey = "gsk_abc123xyz456..."
  */
 
-export const groqApiKey = "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";
+export const groqApiKey = import.meta.env.GROQ_API_KEY;
 
 // Model configuration
 export const groqModel = "llama-3.3-70b-versatile";
